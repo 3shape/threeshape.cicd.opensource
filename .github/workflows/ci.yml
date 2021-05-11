@@ -6,3 +6,5 @@ jobs:
     runs-on: windows-latest
     container:
       image: mcr.microsoft.com/dotnet/sdk:5.0
+    steps:
+      run: echo Hello
